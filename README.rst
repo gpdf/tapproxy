@@ -16,7 +16,9 @@ VOSKit TAPProxy
 
 
 
-Proxy server for a standards-conformant TAP service; adds metadata and provides a SCA protocol interface
+Proxy server for a standards-conformant TAP service; adds metadata and provides a SCA protocol interface.
+
+TAPProxy uses VOSKit to implement the proxy logic and is based on Flask for its service framework.
 
 
 * Free software: BSD license
