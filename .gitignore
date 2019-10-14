@@ -100,3 +100,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# editor backups
+*.py~
+*.xml~
+*.py#
+*.xml#
