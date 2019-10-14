@@ -20,7 +20,7 @@ Proxy server for a standards-conformant TAP service; adds metadata and provides 
 
 
 * Free software: BSD license
-* Documentation: https://tapproxy.readthedocs.io.
+* Documentation: (not yet implemented) https://tapproxy.readthedocs.io.
 
 
 Features
