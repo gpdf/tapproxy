@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vosi:availability  
+  xmlns:vosi="http://www.ivoa.net/xml/VOSIAvailability/v1.0">
+  <vosi:available>{% if isup %}true{% else %}false{% endif %}</vosi:available>
+{% if up_since_xml %}
+  <vosi:upSince>{{ up_since_xml }}</vosi:upSince>
+{% endif %}
+{% for note in notes %}
+  <vosi:note>{{ note|e }}</vosi:note>
+{% endfor %}
+</vosi:availability>
